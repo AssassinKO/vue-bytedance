@@ -1,0 +1,22 @@
+{
+  "name": "vue-bytedanceJob",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "pm2 start --name=\"vue-bytedanceJob\" ./app.js"
+  },
+  "dependencies": {
+    "connect-history-api-fallback": "^1.6.0",
+    "core-js": "^3.6.4",
+    "express": "^4.17.1",
+    "http-proxy-middleware": "^1.0.5",
+    "lodash": "^4.17.15",
+    "node-fetch": "^2.6.0"
+  },
+  "keywords": [
+    "vue-bytedance"
+  ],
+  "author": "konglingwen",
+  "license": "ISC"
+}
